@@ -1,0 +1,51 @@
+[COLOR="Red"]Changelogs:[/COLOR]
+[COLOR="Red"]v0 - CM13[/COLOR]
+CM Stock kernel [STRIKE]installed by base of AnyKernel2 of [MENTION=4723408]hurtsky[/MENTION] and [MENTION=5736790]Kamin4ri[/MENTION].[/STRIKE] installed using a old script
+LZO compression 
+Swap support
+Init.d support
+-O2
+EXT 2/3/4
+Kexec HARDBOOT full support (WIP)
+default gov interactive
+default i/o row
+Build with UBERTC 4.8
+For more check github.
+Optimized flash script
+
+[COLOR="Red"]v0.1 - CM13[/COLOR]
+Added intelliplug 4.0 from faux123
+Kexec patch (need test)
+More I/O's (FIOPS,ZEN,SIO,VR,BFQ)
+Added OC on CPU (up to 1.6Ghz) and GPU (up to 600Mhz)
+
+[COLOR="Red"]v0.1.1 - CM13[/COLOR]
+Added faux sound control thanks to [MENTION=3332811]faux123[/MENTION]
+Added low latency support
+Added high performance headset mode
+Added Tripndroid,SIOplus,FIFO I/O's
+
+[COLOR="Red"]v0.1.2 - CM13[/COLOR]
+Added Alucard,MSM,Bricked,AutoSMP hotplugs
+Added UC of GPU (100Mhz)
+Added Adreno idler (will save a lot of battery especially if using OC)
+Added LCD Notify and State Notifier
+SELinux permissive by default
+Updated faux sound control v3.5
+Added ARM topology and NEON
+Fixed KEXEC 
+
+[COLOR="Red"]v0.1.3 - CM13[/COLOR]
+Fixed bricked hotplug
+Added some govs (Yankdemand,Yankactive,Smartmax,Lionhert,Impulse,DanceDance and Bioshock)
+Added NTFS support
+Removed optimize for size flag
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[COLOR="Red"]v0 - CM12.1[/COLOR]
+Same as CM13 just not KEXEC (yet) and plus NEON side kernel mode on!
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[COLOR="Red"]v0 - CM11[/COLOR]
+Stock CM11 kernel with lastest sources and patched to work WiFi,Bluetooth and NO SCREENFLICKER!@! 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------[COLOR="Red"]
+Bugs:[/COLOR]
+None by now, if you encounter one please make a post in this thread with steps to reproduce and if possible a LOGCAT and DMESG.

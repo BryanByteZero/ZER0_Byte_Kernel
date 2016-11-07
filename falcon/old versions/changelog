@@ -1,0 +1,70 @@
+v0
+Stock cm kernel
+v0.1
+LZO Compression
+Add Intelliplug 3.9 (i will update to 4.0 soon as i can), AutoSMP and Alucard hotplugs (Thanks to @faux123 @mrg666 @olokos @zakee94 @Alucard24 and @gekkehenkie11)
+Kexec hardboot patch
+OC of CPU (1.6Ghz)
+OC of GPU (600Mhz)
+UC of GPU (100Mhz)
+A few governors (Yankdemand, Yankactive,Smartmax,Lionheart,Impulse,DanceDance,Bioshock)
+NEON in kernel mode
+Misc crypt tweaks
+EXT 2/3/4 Support
+NTFS Support
+Adreno idler enabled by default and others GPU Tweaks
+Double tap to wake and swipe to wake + swipe to sleep
+state notifier
+All avaliable TCPs
+Faux Sound Control
+
+v0.1.1
+Up to date with cm
+Added KCAL
+Added High performance mode
+Added Low latency audio playback
+Overclock Slimbus for better audio
+Optimized ARM RWSEM algorithm
+Added Intellithermal v2
+Added some fixes to GCC 5x 6x and 7x
+If i can fix the errors probably the next version will be built a optimized version of UBER or UBER 7.0 (alread at uber tc 5 optimized for a7)
+24 bits playback support
+Ram OC
+Added simple gpu algorithm
+Silencied some logs
+Added DOLBY_DAP dependency fix
+Add SIO/VR/ZEN
+Dynamic fsync
+Enabled additional Moto G Exclusive audio channels TPA-a6165
+F2FS support (only data)
+Quadrooter fixed
+To fully use new audio patchs use the lastest Kernel Adiutor
+
+Bugs:yankactive
+
+v0.1.2
+Some fixes to the source and updated to the upstream 3.4.100 (i still need to update to the latest one which is 3.4.112)
+Enabled optmization flags (O3, GRAPHITE and others)
+Filesystem tweaks and powersuspend implemented
+Dynamic management of dirty page writebacks, expire and cache pressure
+
+v0.1.3
+drivers: usb: Use Android device as USB keyboard/mouse
+ Start ADB Debugging
+* Start app
+* Connect device to system via USB cable
+ Base project: https://github.com/pelya/android-keyboard-gadget
+Required app: https://play.google.com/store/apps/details?id=remote.hid.keyboard.client
+block: scheduler: Added tripndroid scheduler
+stereo call recording support
+Reclaim RAM from loggers
+Added one more freq to gpu oc
+Rebased the OC and add UC (now the min is 96Mhz) 
+Added undervolt (users cant control it yet)
+smartmax updated
+Trying to add zzmove
+Introduce new flag WQ_POWER_EFFICIENT for power oriented
+cpufreq: Add IntelliActive/Demand Govs
+Trying to add oc of 1.8ghz
+Still a wip oc of 1.8ghz yankactive zzmove userspace control voltage
+Some other patchs
